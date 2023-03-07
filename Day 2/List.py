@@ -129,3 +129,47 @@ ValueError: list.remove(x): x not in list
 >>> #--------------------------------------------------------------------
 >>> #pop
 >>> 
+List1=[1,2,3,4,5]
+print(List1)
+List2=['a','b','c','d']
+List1.append(List2)
+print(List1)
+List1.extend(List2)
+print(List1)
+List3=[1,2,4,5,6]
+List3.insert(3,2)
+print(List3)
+List3.remove(4)
+print(List3)
+List3.insert(3,2)
+List3.insert(4,3)
+print(List3)
+List4=['a','c','e']
+List4.insert(1,'b')
+List4.insert(3,'d')
+print(List4)
+List4.pop(3)
+print(List4)
+List5=['a','b','c','d','s','t','s','u']
+x=List5.count('s')
+print(x)
+List6=[10,9,8,7,6,5,4,3,2,1]
+List6.reverse()
+print(List6)
+List7=[99,77,5,344,0,32,2,56]
+List7.sort()
+print(List7)
+List8=['Sugu','Suve','Thiru','Kokila','Ram']
+List9=List8.copy()
+print(List9)
+List9.pop()
+del List9[2]
+print(List9)
+
+
+
+#List Comprehensions
+squares=[]
+for i in range(10):
+    squares.append(i*2)
+print(squares)
