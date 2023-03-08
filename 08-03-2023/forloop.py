@@ -53,3 +53,19 @@ nick=['Thala','King','Hitman','Warrior','Classy']
 for x in players:
     for y in nick:
         print(x,y)
+ #while loop
+
+i=1
+while(i<=10):
+    print(i)
+    i+=1
+else:
+    print('While over')
+
+#break
+j=10
+while(j<=100):
+    print(j)
+    j+=10
+   
+    
