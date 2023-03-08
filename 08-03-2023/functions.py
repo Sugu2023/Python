@@ -92,3 +92,13 @@ def myfun(n):
     return lambda a:a*n
 mytripler=myfun(3)
 print(mytripler(10))
+
+#documentation stringd
+
+def docstring():
+    '''it is a sample function
+    
+          to check function calling'''
+    print('Doc string')
+docstring()
+print(docstring.__doc__)
