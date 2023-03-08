@@ -78,5 +78,17 @@ for n in range(2,10):
     else:
          print(n,'is prime')
    
-    
+  #looping through sequence
+
+set1=('tic','tac','mac')
+for x in enumerate(set1):
+    print(x)
+for k,l in enumerate(['hi','hello','how']):
+    print(k,l)
+
+#zip()
+questions=['name','age','favourite-color']
+ans=['sugu',21,'Pink']
+for q,a in zip(questions,ans):
+    print('What is your {0}? It is {1}'.format(q,a))  
     
