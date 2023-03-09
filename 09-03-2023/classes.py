@@ -62,4 +62,21 @@ per3.biometric()
 del per3
 # print(per3.name)#it says error that it is not defined.
 
+#METHOD May call other method using self.
+class defi:
+    def __init__(self,x):
+        self.x=x
+        
+    def add(self):
+        
+        return self.x**2
+    def cube(self):
+        return self.x**3
+
+n=defi(8)
+print(n.add())
+print(n.cube())
+# print(n.addtwice())
+
+
 
